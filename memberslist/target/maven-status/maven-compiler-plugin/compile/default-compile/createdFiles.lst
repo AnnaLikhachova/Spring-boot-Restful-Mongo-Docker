@@ -1,0 +1,7 @@
+META-INF/spring-configuration-metadata.json
+com/memberslist/repository/ApplicationConfig.class
+com/memberslist/repository/MemberRepository.class
+com/memberslist/controller/MemberController.class
+com/memberslist/App.class
+com/memberslist/model/Member.class
+com/memberslist/App$MessageRestController.class

@@ -1,0 +1,18 @@
+version: '3.2'
+services:
+  mongodb:
+    container_name: membership
+    image: ash/membership
+    command: mongod --smallfiles
+  web:
+    container_name: membership-service
+    build: build/libs
+    image: ash/membership
+    depends_on: # datastore will be started before the schools-service
+      - mongodb
+    ports:
+      - "8080:8080"
+    links:
+      - mongodb
+    environment:
+      SPRING_DATA_MONGODB_URI: mongodb://mongodb/test

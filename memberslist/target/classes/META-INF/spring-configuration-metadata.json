@@ -1,0 +1,17 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.memberslist.controller.MemberController",
+      "name": "",
+      "type": "com.memberslist.controller.MemberController"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.memberslist.controller.MemberController",
+      "name": "members",
+      "type": "java.util.Map<java.lang.String,java.lang.Object>"
+    }
+  ]
+}
